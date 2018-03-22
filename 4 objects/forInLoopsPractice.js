@@ -8,6 +8,12 @@ var drink = {
 //Loop over drink
 //if the value is 'orange' change it to 'cherry'
 
+for(var prop in drink) {
+    if(drink[prop] === 'orange'){
+        drink[prop] = 'cherry'
+    }
+}
+drink;
 
 
 //Write a function, called 'checkValid', that takes in an object like drink 
